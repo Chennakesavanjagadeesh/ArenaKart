@@ -10,7 +10,6 @@ import org.springframework.stereotype.Component;
 import java.math.BigDecimal;
 
 @Component
-@RequiredArgsConstructor
 public class DataLoader implements CommandLineRunner {
 
     private final UserRepository userRepository;
