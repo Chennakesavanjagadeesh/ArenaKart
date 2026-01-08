@@ -13,7 +13,6 @@ import com.example.arenakart.Repositories.AddressRepository;
 import java.util.List;
 
 @Service
-@RequiredArgsConstructor
 public class AddressService {
 
     private final AddressRepository addressRepository;

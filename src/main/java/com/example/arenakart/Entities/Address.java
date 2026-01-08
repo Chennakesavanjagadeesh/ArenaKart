@@ -4,10 +4,6 @@ import lombok.*;
 
 @Entity
 @Table(name = "addresses")
-@Data       // generates getters, setters, equals, hashCode, toString
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder    // generates builder()
 public class Address {
 
     @Id

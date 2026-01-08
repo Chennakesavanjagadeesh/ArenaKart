@@ -11,7 +11,6 @@ import org.springframework.stereotype.Service;
 import java.util.Collections;
 import java.util.Set;
 
-@RequiredArgsConstructor
 @Service
 public class CustomUserDetailsService implements UserDetailsService {
     private final UserRepository userRepository;

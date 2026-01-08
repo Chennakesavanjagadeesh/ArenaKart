@@ -5,10 +5,6 @@ import lombok.*;
 
 @Entity
 @Table(name = "product_images")
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
 public class ProductImage {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

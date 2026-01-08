@@ -19,7 +19,6 @@ import java.time.LocalDateTime;
 import java.util.stream.Collectors;
 
 @Service
-@RequiredArgsConstructor
 public class CartService {
 
     private final CartRepository cartRepository;

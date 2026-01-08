@@ -11,10 +11,7 @@ import java.util.Set;
 
 @Entity
 @Table(name = "orders")
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
+
 @EntityListeners(AuditingEntityListener.class)
 public class Order {
     @Id

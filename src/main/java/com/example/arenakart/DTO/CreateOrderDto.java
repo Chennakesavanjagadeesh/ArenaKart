@@ -4,7 +4,6 @@ import com.example.arenakart.Entities.PaymentMethod;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
-@Data
 public class CreateOrderDto {
     @NotNull(message = "Shipping address is required")
     private Long shippingAddressId;

@@ -12,7 +12,6 @@ import com.example.arenakart.Repositories.CategoryRepository;
 import java.util.List;
 
 @Service
-@RequiredArgsConstructor
 public class CategoryService {
 
     private final CategoryRepository categoryRepository;

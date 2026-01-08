@@ -15,7 +15,6 @@ import com.example.arenakart.Repositories.CartRepository;
 import com.example.arenakart.Repositories.UserRepository;
 
 @Service
-@RequiredArgsConstructor
 public class UserService {
 
     private final UserRepository userRepository;

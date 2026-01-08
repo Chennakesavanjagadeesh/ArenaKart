@@ -18,7 +18,6 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/admin")
 @PreAuthorize("hasAnyRole('ADMIN', 'SUPER_ADMIN')")
-@RequiredArgsConstructor
 public class AdminController {
     private final OrderService orderService;
     private final ProductService productService;

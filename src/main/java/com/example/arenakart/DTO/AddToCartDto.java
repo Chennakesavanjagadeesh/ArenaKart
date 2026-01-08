@@ -4,7 +4,6 @@ import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
-@Data
 public class AddToCartDto {
     @NotNull(message = "Product ID is required")
     private Long productId;

@@ -7,9 +7,6 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-@Data
-@Setter
-@Getter
 public class UserRegistrationDto {
     @NotBlank(message = "Email is required")
     @Email(message = "Invalid email format")

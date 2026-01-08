@@ -11,12 +11,6 @@ import java.util.Set;
 
 @Entity
 @Table(name = "users")
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
-@ToString(exclude = {"addresses", "cart", "orders"})
-@EqualsAndHashCode(exclude = {"addresses", "cart", "orders"})
 @EntityListeners(AuditingEntityListener.class)
 public class User {
 

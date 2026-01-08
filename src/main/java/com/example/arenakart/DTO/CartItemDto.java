@@ -3,7 +3,6 @@ package com.example.arenakart.DTO;
 import lombok.Data;
 import java.math.BigDecimal;
 
-@Data
 public class CartItemDto {
     private Long id;
     private Long productId;

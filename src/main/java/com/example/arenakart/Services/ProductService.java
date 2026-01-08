@@ -16,7 +16,6 @@ import com.example.arenakart.Repositories.ProductRepository;
 import java.math.BigDecimal;
 
 @Service
-@RequiredArgsConstructor
 public class ProductService {
 
     private final ProductRepository productRepository;
