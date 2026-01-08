@@ -11,4 +11,3 @@ WORKDIR /app
 COPY --from=build /app/target/ArenaKart-0.0.1-SNAPSHOT.jar arenakart.jar
 EXPOSE 8080
 CMD ["java", "-jar", "arenakart.jar"]
-
